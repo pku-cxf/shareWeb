@@ -1,0 +1,1012 @@
+
+@import "common";
+.orange{
+  color:#E65901 ;
+}
+.top{
+  height: 50px;
+  width: 100%;
+  background: #00C6D7;
+  color: #fff;
+  position: absolute;
+  margin-left: -230px;
+  .top-title{
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .top-user{
+    line-height: 50px;
+    span{
+      margin-right: 10px;
+    }
+  }
+}
+.menu{
+  width: 200px;
+  border: solid 1px #ccc;
+  background: #FFF;
+  float: left;
+  height: 100%;
+  position: absolute;
+  margin-left: -231px;
+  margin-top: 49px;
+
+
+  ul{
+    .active{
+      a{
+        color:#00C6D7
+      }
+    }
+    li{
+      cursor: pointer;
+      padding: 15px;
+      /*color: #4D4D4D;*/
+      font-size: 14px;
+      font-weight: 700;
+      width: 100%;
+      border-bottom: 1px solid #CCC;
+      position: relative;
+      span{
+      }
+      a{
+        color:#4D4D4D ;
+      }
+    }
+  }
+}
+
+.table{margin: 0}
+.a-container{
+  padding-top: 55px;
+}
+.a-box{
+  margin:0 20px;
+  padding-left: 210px;
+  h3{
+    color: #f39800;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+  }
+}
+
+.b-login{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:url("../assets/bg.png") repeat-x #b5bada;
+  display: inline-block;
+
+}
+.b-login-box{
+  color: #fff;
+  width:300px;
+  margin: 10% auto  0 auto;
+  h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  .row {
+    span{
+      width: 80px;
+      float: left;
+      line-height: 30px;
+    }
+  }
+  .b-login-box-btn{
+    width: 100px;
+    margin: 30px auto;
+  }
+}
+
+
+// 注册
+
+.b-regist-error{
+  color: red;
+  position: absolute;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.b-regist-box-btn{
+  button{
+    margin-left: 15px;
+  }
+  width: 200px;
+  margin: 20px auto;
+}
+
+.b-input{
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  border:1px solid #E6E6E6;
+  padding-left:3px;
+  color: #000;
+}
+.b-search{
+  cursor:pointer;
+}
+.input-error {
+  border: 1px solid darkred;
+}
+.react-bs-container-header {
+  overflow: hidden;
+  width: 100%;
+}
+.react-bs-container-body {
+  overflow: auto;
+  width: 100%;
+}
+.react-bs-table table td, .react-bs-table table th {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.react-bs-table table {
+  margin-bottom: 0;
+  table-layout: fixed;
+}
+
+// 上传组件
+.upload {
+  /* width: 100px;
+   border: 1px solid #e6e6e6;
+   background: #fff;*/
+  ul {
+    width: 50%;
+    height: 27px;
+    margin: 50px auto;
+    li {
+      width: 100%;
+      line-height: 27px;
+      text-align: center;
+      .f12;
+      color: #DDDDDD;
+      border: 1px solid #D6D6D6;
+      border-radius: 4px;
+      cursor: pointer;
+      &.active {
+        border-color: #00A995;
+        color: #00A995;
+      }
+    }
+  }
+  .upload-add {
+    /* width: 75%;
+     height:50px;
+     margin: 30px auto;
+     background: #FFFFFF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;*/
+    .upload-bg {
+      width: 80px;
+      height: 80px;
+      display: block;
+      background: url(./images/upload-add.png) no-repeat center;
+      cursor: pointer;
+    }
+  }
+  .upload-complete{
+    width: 75%;
+    margin: 30px auto;
+    .upload-add-list{
+      p{
+        width: 90%;
+        overflow: hidden;
+        height: 30px;
+        line-height: 30px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      span{
+        float: right;
+        margin: -23px 0 0 0;
+        color: red;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+
+.a-operation-box{
+  span{
+    cursor: pointer;
+  }
+}
+
+.a-preview-col {
+  label{
+    margin-right: 5px;
+  }
+  line-height: 40px;
+}
+
+.a-nav-ul{
+  height: 30px;
+  li{
+    line-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .active{
+    color:#f39800 ;
+    border-bottom: 2px solid #f39800;
+  }
+}
+.a-total-num{
+  height: 100px;
+  background: #5cb85c;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  margin-bottom: 40px;
+
+  h2{
+    border-bottom: 1px solid #fff;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+}
+.a-total-money{
+  height: 100px;
+  background: #4CB1CF;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  margin-bottom: 40px;
+  h2{
+    border-bottom: 1px solid #fff;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.a-total-invest {
+  height: 100px;
+  background: #F0433D;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  h2 {
+    border-bottom: 1px solid #fff;
+  }
+  p {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.a-total-cash {
+  height: 100px;
+  background: #f0ad4e;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  h2 {
+    border-bottom: 1px solid #fff;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.react-bootstrap-table-page-btns-ul.pagination{
+  float: right;
+}
+.react-bs-table{
+  table {
+    tr{
+      outline: none;
+      td{
+        outline:none;
+      }
+    }
+  }
+}
+.a-tab-button span{
+  padding: 4px 8px;
+  cursor: pointer;
+  border: 1px solid  #46b8da;
+  user-select: none;
+  color: #fff;
+  background-color: #5bc0de;
+  border-radius: 5px;
+}
+.w1180{
+  width: 1180px;
+  margin: 0 auto;
+}
+
+
+.logo{
+  background: url(images/logo_long.png) no-repeat;
+  width: 375px;
+  height: 52px;
+  background-size: contain;
+  display: block;
+  margin-top: 15px;
+}
+
+.share-head-top{
+  .w1180;
+  .h50;
+}
+.share-head-box{
+  width: 100%;
+  background: #f2f2f2;
+  height: 30px;
+  line-height: 30px;
+}
+.share-nav{
+  .h50;
+  .w1180;
+  ul{
+    li{
+      width: 16%;
+      text-align: center;
+      line-height: 40px;
+
+      a{
+        color: #555;
+        font-size: 15px;
+
+      }
+    }
+    li.active{
+      a{
+        color: #23b7b7;
+      }
+    }
+  }
+}
+
+.share-top-left{
+  a{
+    padding: 0 20px;
+  }
+}
+.share-top-right{
+  a{
+    padding: 0 20px;
+  }
+}
+
+/**注册**/
+.share-register-left{
+  border-right: 1px solid #ccc;
+}
+
+.share-register-msg{
+  dl{
+    dt{
+      font-size: 16px;
+      line-height: 50px;
+    }
+    dd{
+      padding: 10px 0;
+    }
+  }
+
+}
+.share-register-button{
+  .btn{
+    width: 300px;
+    margin-left: 130px;
+  }
+}
+.share-register-go{
+  width: 500px;
+  margin: 20px auto;
+}
+
+/**热销车型**/
+.share-hot-top {
+  height: 40px;
+  line-height: 40px;
+}
+.share-hot-title {
+  span{
+    i{
+      font-style: normal;
+    }
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 20px;
+    color: #999;
+  }
+  font-size: 18px;
+  font-weight: bold;
+}
+.share-hot-content {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+  margin: 10px 0 20px 0;
+  .share-hot-left{
+    width: 440px;
+  }
+  .share-hot-right{
+    width: 730px;
+  }
+}
+.share-hot-list{
+  width: 360px;
+  border-top:1px solid #ebebeb;
+  border-right:1px solid #ebebeb;
+  padding: 10px 0  0 10px;
+
+  .share-hot-head{
+    .share-icon-hot{
+      background: url(./images/iconmore.png) -536px 0;
+      width: 44px;
+      height: 44px;
+      margin: -11px 0 0 -10px;
+    }
+    height: 40px;
+    .share-hot-detail{
+      h4{
+        font-size: 20px;
+        color: #333;
+        top:14px;
+        line-height: 30px;
+      }
+      h6{
+        color:#666;
+      }
+    }
+    .share-hot-price{
+      .pr10;
+      span{
+        color: #e8591d;
+        font-size: 26px;
+      }
+    }
+  }
+
+  .share-hot-car{
+    // position: absolute;
+    height: 150px;
+    right: -20px;
+    bottom: 2px;
+    background: transparent;
+    padding: 0 20px 0 20px;
+  }
+}
+/**热门活动**/
+.share-active-list{
+  height: 281px;
+  padding: 5px;
+  overflow: hidden;
+  li{
+    float: left;
+    padding: 5px;
+    border: 1px solid #e7e7e7;
+    margin-right: 10px;
+  }
+}
+
+/**车辆列表*/
+.share-car{
+  .w1180;
+  padding: 20px 0;
+  .share-car-box{
+    border: 2px solid #ccc;
+    overflow: hidden;
+    padding: 10px;
+    .share-car-ul{
+      li{
+        padding: 0;
+        .share-car-img{
+          img{
+            height: 170px;
+            width: 250px;
+          }
+        }
+        width: 275px;
+        height: 255px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        margin: 7px;
+        _margin: 6px;
+        position: relative;
+        cursor: pointer;
+        .share-car-intro{
+          margin-top: 23px;
+          padding:0 5px ;
+          border-top: 1px solid #f7f1f1;
+          &:hover{
+            background: #23b7b7;
+            color: #fff;
+            cursor: pointer;
+          }
+          h5{
+            font-size: 16px;
+            line-height: 30px;
+          }
+          p{
+            font-size: 12px;
+            line-height: 30px;
+            color: #7b7b7b;
+
+          }
+        }
+      }
+    }
+  }
+}
+/**店铺列表**/
+.share-store{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  .share-store-ul{
+    li{
+      margin-bottom: 20px;
+      width: 100%;
+      p{
+        font-size: 18px;
+        line-height: 40px;
+      }
+      .share-store-info{
+          color: #7b7b7b;
+          font-size: 14px;
+          .share-store-address{
+            line-height: 30px ;
+            span{
+              width: 16px;
+              height: 16px;
+              background: url(./images/address.png) no-repeat;
+              .fl;
+              margin: 8px 6px 0 0;
+            }
+          }
+          .share-store-detail{
+            .share-store-phone{
+              line-height: 30px;
+              margin-right: 50px;
+              span{
+                margin-right: 6px;
+              }
+
+            }
+            .share-store-star{
+              line-height: 30px;
+              span{
+                width: 16px;
+                height: 16px;
+                margin: 7px 5px 0 4px;
+                background: url(./images/star.png) no-repeat;
+                float: right;
+              }
+
+            }
+          }
+      }
+    }
+  }
+}
+/**精彩活动**/
+.share-active-0{
+  background: url(./images/activeBanner.png) no-repeat center center;
+  width: 100%;
+  height: 713px;
+}
+.share-active-1{
+  background: url(./images/active0.png) no-repeat center center;
+  width: 100%;
+  height: 1127px;
+}
+.share-active-2{
+  background: url(./images/active1.png) no-repeat center center;
+  width: 100%;
+  height: 1066px;
+}
+/*订单详情**/
+.share-detail{
+    .share-date-style{
+      width: 200px;
+      height: 35px;
+      line-height: 35px;
+      border: 1px solid #c5c5c5;
+      border-radius: 5px;
+      text-indent: 2px;
+      padding: 0 2px;
+    }
+  overflow: hidden;
+  .share-detail-date{
+    height:40px ;
+    line-height: 40px;
+    margin: 10px 0 ;
+  }
+  .share-detail-left{
+    .share-detail-order{
+      width: 100%;
+      overflow: hidden;
+      border:1px solid #c5c5c5;
+      padding: 13px;
+    }
+    .share-detail-tip{
+      width: 100%;
+      overflow: hidden;
+      line-height: 25px;
+      padding: 10px 13px;
+      color: #EB5A01;
+      background: #FFFCD2;
+      border:1px solid #c5c5c5;
+      margin-top: 20px;
+    }
+    .fl;
+    width:75%;
+
+    .share-detail-left-img{
+      margin: 20px;
+      p{
+        text-align: center;
+        font-size: 18px;
+        color: red;
+        line-height: 40px;
+      }
+    }
+    .share-detail-left-info{
+      width: 60%;
+      .fl;
+      overflow: hidden;
+      h5{
+        font-size:18px;
+        height: 40px;
+        line-height: 40px;
+      }
+      label{
+        height: 30px;
+        line-height: 30px;
+      }
+      span{
+        color: #666;
+      }
+    }
+
+    .share-detail-other{
+      color: #666;
+      p{
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+  }
+  .share-detail-right{
+    .fr;
+    width: 24%;
+    border:1px solid #c5c5c5;
+    h2{
+      height: 43px;
+      border-bottom: 1px solid #ccc;
+      color: #E65901;
+      background: #EFEFEF;
+      line-height: 42px;
+      font-size: 16px;
+      font-weight: bolder;
+      text-indent: 1em;
+    }
+    .share-detail-base{
+      border-bottom: 1px dashed #ccc;
+      height: 45px;
+      line-height: 25px;
+      padding: 10px 13px;
+    }
+
+    .share-detail-total {
+      height: 60px;
+      line-height: 40px;
+      text-align: right;
+      padding-right: 20px;
+      font-size: 20px;
+    }
+    .share-detail-button{
+      width: 100%;
+      height: 40px;
+    }
+
+  }
+}
+
+/**接送服务**/
+.share-relay{
+  background:url("./images/guide-banner.jpg") no-repeat;
+  width: 1600px;
+  height: 500px;
+  margin-bottom: 20px;
+}
+.share-relay-box{
+  .share-relay-scroll{
+    .share-relay-left{
+
+    }
+    .share-relay-right{
+
+    }
+    .share-relay-img{
+
+    }
+    .share-relay-img0{
+
+    }
+    .share-relay-img1{
+                   
+    }
+    .share-relay-img2{
+
+    }
+    .share-relay-img3{
+
+    }
+    .share-relay-img4{
+
+    }
+    .share-relay-img5{
+
+    }
+  }
+}
+
+/**登陆**/
+.share-login-box{
+  margin-left: 15%;
+  .share-login-button{
+    width: 100px;
+    margin: 0 auto ;
+  }
+
+}
+
+/**尾部数据**/
+.share-foot{
+  .w1180;
+  overflow: hidden;
+  .share-foot-img{
+    margin-top:20px;
+    height: 80px;
+    background: url("./images/advantage_bg.png") no-repeat;
+    ul{
+      padding-top:60px;
+      li{
+        .fl;
+        width: 236px;
+        text-align: center;
+        font-size: 20px;
+      }
+    }
+  }
+
+}
+
+/**后台管理系统**/
+.share-admin-head{
+  width: 100%;
+  height: 50px;
+  background: #4A4A4A;
+  color: #fff;
+  font-size: 18px;
+  line-height: 50px;
+  padding: 0 20px;
+}
+.share-admin-box{
+  width: 100%;
+  height: 100%;
+  .share-admin-menu{
+    width:13%;
+    min-width: 150px;
+    background: #32C2CD ;
+    float: left;
+    ul{
+      li{
+        cursor: pointer;
+        width: 100%;
+        border-bottom: 1px solid;
+        line-height: 30px;
+        padding: 10px 15px;
+        color: #fff;
+        a{
+          color: #fff;
+        }
+      }
+      li.active{
+        color: #3e1212;
+      }
+
+    }
+
+  }
+  .share-admin-content{
+    /*background: #E6E6E6;*/
+    width: 85%;
+    padding-top: 10px;
+    margin: 0 1%;
+    .fl;
+    .share-admin-title{
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #32C2CD;
+    }
+  }
+}
+.share-admin-head-right{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/**店铺车辆管理**/
+.modal-table{
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #ccc;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 10px 10%;
+  th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: #dedede;
+    text-align: center;
+  }
+  td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: #ffffff;
+    text-align: center;
+  }
+}
+.lh40{
+  line-height: 40px;
+}
+
+/**车辆预订**/
+.share-driving{
+  width: 90%;
+  height: 180px;
+  margin: 20px;
+  li{
+    width:100%;
+    border-bottom: 1px solid #ccc;
+    .share-driving-img{
+      width: 300px;
+      height: 200px;
+      img{
+      }
+    }
+    .share-driving-car{
+      width: 500px;
+      margin: 20px 0 0 20px;
+      .share-driving-name{
+        h5{
+          font-size: 16px;
+          color: #666;
+          height: 50px;
+          line-height: 50px;
+          font-weight: bold;
+        }
+      }
+    }
+    .share-driving-price{
+      label{
+        color: red;
+        margin-left: 10px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      span{
+        font-size: 12px;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+/**个人中心**/
+.share-my{
+  .share-my-left{
+    .fl;
+    border: 1px solid #d2cdcd;
+    min-height: 300px;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    ul{
+
+      li{
+        border-bottom: 1px solid #d2cdcd;
+        background: #e7e7e7;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+      }
+      li.active{
+        color: #23b7b7;
+      }
+    }
+
+  }
+  .share-my-right{
+    .fr;
+    min-height: 300px;
+    width: 78%;
+    border: 1px solid #d2cdcd;
+  }
+
+
+  .share-user{
+    width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    .form-group{
+      height: 30px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    .share-user-button{
+      margin: 20px auto;
+      width: 212px;
+      button{
+        width: 100px;
+      }
+
+    }
+  }
+}
+.share-order-list{
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px dashed #c5c5c5;
+  height: 130px;
+  .share-order-list-left{
+    width: 200px;
+    img{
+      width: 90%;
+    }
+  }
+  .share-order-list-right{
+    width: 680px;
+  }
+}
+.share-order-ul{
+  width: 100%;
+  height: 50px;
+  ul{
+    li{
+      padding: 7px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      .fl;
+    }
+    li.active{
+      color: #fff;
+      background: #32C2CD;
+    }
+  }
+}
